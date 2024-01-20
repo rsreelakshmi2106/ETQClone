@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500&family=Dancing+Script&family=Dhurjati&family=Inter:wght@200&family=Lobster&family=Mukta&display=swap');
+*{
+    font-family: Mukta;
+}
+.topban{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topban a{
+    color: inherit;
+}
+.topban a:hover{
+    text-decoration: none;
+}
+.container {
+  width: 100%; /* Set the width of the container */
+  overflow: hidden; /* Clear the float */
+}
+.left{
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    width: 70%;
+    height: 60px;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 50px;
+}
+.left ul{
+    display: flex;
+}
+.left ul li a{
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: larger;
+    position: sticky;
+    top: 0px;
+}
+.left ul li a:hover{
+    text-decoration: underline;
+}
+.right{
+    float: right;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    position: absolute;
+    top: 50px;
+    left: 1056px;
+}
+.right ul{
+    display: flex;
+}
+.right ul li a{
+    display: flex;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: larger;
+    position: sticky;
+    top: 0px;
+}
+.right ul li a:hover{
+    text-decoration: underline;
+}
+.head{
+    width: 100%;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+}
+.head::before{
+    content: "";
+    background-image: url("https://www.etq-amsterdam.com/cdn/shop/files/image00001_Dekstop_1200x.png?v=1701167209");
+    width: 1040px;
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.notif{
+    height: 300px;
+    position: absolute;
+    top: 300px;
+    left: 1020px;
+}
+.notif a{
+    color: black;
+    text-decoration: none;
+}
+.row1{
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    float: left;
+}
+.col{
+    height: 300px;
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 300px;
+}
+.col a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+.row2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+.col1{
+    height: 500px;
+    width: 35%;
+}
+.col1 img,.col2 img{
+    width: 90%;
+    height: fit-content;
+}
+.r2c1 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-Flatlay6Okt-20645_v1crob.png?v=1698064686");
+}
+.r2c2 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-WardrobeEssentials-7Aug-2496crob_v1.jpg?v=1692612703");
+}
+.r2c3 img:hover{
+    content: url("https://www.etq-amsterdam.com/cdn/shop/files/ETQ-Flatlay6Okt-20726_v1crob.png?v=1698233400");
+}
+.col1 a,.col2 a{
+    text-decoration: none;
+    color: black;
+}
+.row3{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    float: left;
+    margin: 20px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.col2{
+    height: 500px;
+    width: 50%;
+    margin-left:20px;
+}
+.c22{
+    margin-left: 0px;
+}
+.frow{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    float: left;
+    margin: 20px;
+}
+.fc1{
+    width: 450px;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+.fc2,.fc3,.fc4,.fc5{
+    width: 200px;
+    margin: 20px;
+    margin-top: 0px;
+}
+.fc4 ul,.fc5 ul{
+    margin: 0;
+    padding: 0;
+}
+.fc1 a,.fc3 a,.fc4 a,.fc5 a{
+    text-decoration: none;
+    color: black;
+}
+.frow a:hover{
+    text-decoration: underline;
+}
+.tcr{
+    float: left;
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.tcc{
+    width: 40%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.tcc1{
+    font-size: small;
+    width: 30%;
+    margin-right: 300px;
+    margin-left: 20px;
+}
+.tcc2{
+    width: 20%;
+    margin-right: 200px;
+    display: flex;
+    float: left;
+}
+.tcc3{
+    width: 40%;
+    margin-right: 5px;
+    font-size: small;
+}
+.tcc3 ul{
+    display: flex;
+}
+.tcc3 ul li{
+    display: flex;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+.tcc3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.tcc3 ul li a:hover{
+    text-decoration: underline;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #000; /* You can change the color */
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+}
+button{
+    border: none;
+    border-bottom: 1px solid #000; /* You can change the color */
+    background-color: transparent;
+    outline: none;
+    padding: 5px;
+}
+button:hover{
+    border: none;
+}
+.fin{
+    width: 100%;
+    margin: 20px;
+}
+select{
+    padding: 10px;
+    border: rgb(154, 154, 154);
+    background-color: rgb(205, 205, 205);
+}
